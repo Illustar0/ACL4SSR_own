@@ -1,0 +1,25 @@
+#!name=Bili IP Loc API
+#!desc=Description Here
+
+
+[Rule]
+# 强制直连规则
+URL-REGEX,^https:\/\/(api\.bilibili\.com|api\.biliapi\.(com|net))\/x\/dynamic\/feed\/draw\/upload_bfs.*,DIRECT
+
+# 强制代理规则
+URL-REGEX,^https:\/\/(api\.bilibili\.com|api\.biliapi\.(com|net))\/x\/web-interface\/zone.*,RandomIPs
+URL-REGEX,^https:\/\/api\.vc\.bilibili\.com\/vote_svr\/v1\/vote_svr\/create_vote.*,RandomIPs
+URL-REGEX,^https:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/create.*,RandomIPs
+URL-REGEX,^https:\/\/(api\.bilibili\.com|api\.biliapi\.(com|net))\/x\/dynamic\/feed\/create\/dyn.*,RandomIPs
+URL-REGEX,^https:\/\/api\.vc\.bilibili\.com\/dynamic_draft\/v1\/dynamic_draft\/publish_now.*,RandomIPs
+URL-REGEX,^https:\/\/(api\.bilibili\.com|api\.biliapi\.(com|net))\/x\/v2\/reply\/add.*,RandomIPs
+URL-REGEX,^https:\/\/(api\.bilibili\.com|api\.biliapi\.(com|net))\/x\/v2\/dm\/exposure.*,RandomIPs
+
+# 默认直连
+DOMAIN-SUFFIX,api.bilibili.com,DIRECT
+DOMAIN-SUFFIX,api.biliapi.net,DIRECT
+DOMAIN-SUFFIX,api.biliapi.com,DIRECT
+DOMAIN-SUFFIX,api.vc.bilibili.com,DIRECT
+
+[MITM]
+hostname = api.bilibili.com, api.biliapi.com, api.biliapi.net, api.vc.bilibili.com
