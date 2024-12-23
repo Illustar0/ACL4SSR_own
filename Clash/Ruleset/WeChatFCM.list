@@ -1,3 +1,5 @@
 DOMAIN-KEYWORD,short.weixin.qq.com
 DOMAIN-KEYWORD,dns.weixin.qq.com
 DOMAIN-KEYWORD,long.weixin.qq.com
+AND,((PROCESS-NAME,com.tencent.mm),(DST-PORT,8080))
+AND,((PROCESS-NAME,com.tencent.mm),(DST-PORT,80))
