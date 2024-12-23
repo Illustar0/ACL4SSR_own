@@ -1,5 +1,9 @@
 DOMAIN-SUFFIX,short.weixin.qq.com
 DOMAIN-SUFFIX,dns.weixin.qq.com.cn
+DOMAIN-SUFFIX,dns.weixin.qq.com
 DOMAIN-SUFFIX,long.weixin.qq.com
 DOMAIN-SUFFIX,szlong.weixin.qq.com
 DOMAIN-SUFFIX,szextshort.weixin.qq.com
+DOMAIN-SUFFIX,extshort.weixin.qq.com
+DOMAIN-SUFFIX,minorshort.weixin.qq.com
+DOMAIN-SUFFIX,szminorshort.weixin.qq.com
