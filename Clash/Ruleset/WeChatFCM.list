@@ -1,4 +1,4 @@
-DOMAIN-SUFFIX,short.weixin.qq.com,SelectGroup
-DOMAIN-SUFFIX,dns.weixin.qq.com.cn,SelectGroup
-DOMAIN-SUFFIX,long.weixin.qq.com,SelectGroup
-DOMAIN-SUFFIX,szextshort.weixin.qq.com,SelectGroup
+DOMAIN-SUFFIX,short.weixin.qq.com
+DOMAIN-SUFFIX,dns.weixin.qq.com.cn
+DOMAIN-SUFFIX,long.weixin.qq.com
+DOMAIN-SUFFIX,szextshort.weixin.qq.com
